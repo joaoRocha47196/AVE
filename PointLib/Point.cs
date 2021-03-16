@@ -1,4 +1,4 @@
-public struct Point{
+public class Point{
 
     public double x;
     public double y;
@@ -9,7 +9,6 @@ public struct Point{
     }
 
     public void getModule(){
-        return 1; //Math.sqrt()
+        return Math.sqrt(x*x + y*y);
     }
-
 }
